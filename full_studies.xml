@@ -1,0 +1,344 @@
+<FullStudiesResponse>
+  <APIVrs>1.01.04</APIVrs>
+  <DataVrs>2021:12:22 23:00:14.579</DataVrs>
+  <Expression>heart attack</Expression>
+  <NStudiesAvail>399150</NStudiesAvail>
+  <NStudiesFound>8649</NStudiesFound>
+  <MinRank>1</MinRank>
+  <MaxRank>1</MaxRank>
+  <NStudiesReturned>1</NStudiesReturned>
+  <FullStudyList>
+    <FullStudy Rank="1">
+      <Struct Name="Study">
+        <Struct Name="ProtocolSection">
+          <Struct Name="IdentificationModule">
+            <Field Name="NCTId">NCT01874691</Field>
+            <Struct Name="OrgStudyIdInfo">
+              <Field Name="OrgStudyId">2011BAI11B02-A</Field>
+            </Struct>
+            <List Name="SecondaryIdInfoList">
+              <Struct Name="SecondaryIdInfo">
+                <Field Name="SecondaryId">2011BAI11B02</Field>
+                <Field Name="SecondaryIdType">Other Grant/Funding Number</Field>
+                <Field Name="SecondaryIdDomain">Chinese Ministry of Science and Technology</Field>
+              </Struct>
+            </List>
+            <Struct Name="Organization">
+              <Field Name="OrgFullName">Chinese Academy of Medical Sciences, Fuwai Hospital</Field>
+              <Field Name="OrgClass">OTHER</Field>
+            </Struct>
+            <Field Name="BriefTitle">China Acute Myocardial Infarction Registry</Field>
+            <Field Name="OfficialTitle">China Acute Myocardial Infarction Registry</Field>
+            <Field Name="Acronym">CAMIRegistry</Field>
+          </Struct>
+          <Struct Name="StatusModule">
+            <Field Name="StatusVerifiedDate">January 2018</Field>
+            <Field Name="OverallStatus">Completed</Field>
+            <Struct Name="ExpandedAccessInfo">
+              <Field Name="HasExpandedAccess">No</Field>
+            </Struct>
+            <Struct Name="StartDateStruct">
+              <Field Name="StartDate">January 2013</Field>
+              <Field Name="StartDateType">Actual</Field>
+            </Struct>
+            <Struct Name="PrimaryCompletionDateStruct">
+              <Field Name="PrimaryCompletionDate">December 2016</Field>
+              <Field Name="PrimaryCompletionDateType">Actual</Field>
+            </Struct>
+            <Struct Name="CompletionDateStruct">
+              <Field Name="CompletionDate">December 2016</Field>
+              <Field Name="CompletionDateType">Actual</Field>
+            </Struct>
+            <Field Name="StudyFirstSubmitDate">June 4, 2013</Field>
+            <Field Name="StudyFirstSubmitQCDate">June 7, 2013</Field>
+            <Struct Name="StudyFirstPostDateStruct">
+              <Field Name="StudyFirstPostDate">June 11, 2013</Field>
+              <Field Name="StudyFirstPostDateType">Estimate</Field>
+            </Struct>
+            <Field Name="LastUpdateSubmitDate">January 23, 2018</Field>
+            <Struct Name="LastUpdatePostDateStruct">
+              <Field Name="LastUpdatePostDate">January 25, 2018</Field>
+              <Field Name="LastUpdatePostDateType">Actual</Field>
+            </Struct>
+          </Struct>
+          <Struct Name="SponsorCollaboratorsModule">
+            <Struct Name="ResponsibleParty">
+              <Field Name="ResponsiblePartyType">Principal Investigator</Field>
+              <Field Name="ResponsiblePartyInvestigatorFullName">Yuejin Yang</Field>
+              <Field Name="ResponsiblePartyInvestigatorTitle">Doctor</Field>
+              <Field Name="ResponsiblePartyInvestigatorAffiliation">Chinese Academy of Medical Sciences, Fuwai Hospital</Field>
+            </Struct>
+            <Struct Name="LeadSponsor">
+              <Field Name="LeadSponsorName">Chinese Academy of Medical Sciences, Fuwai Hospital</Field>
+              <Field Name="LeadSponsorClass">OTHER</Field>
+            </Struct>
+          </Struct>
+          <Struct Name="OversightModule">
+            <Field Name="OversightHasDMC">Yes</Field>
+          </Struct>
+          <Struct Name="DescriptionModule">
+            <Field Name="BriefSummary">This study is to build a Chinese national registry and surveillance system for acute myocardial infarction(AMI) to obtain real-world information about current status of characteristics, risk factors, diagnosis, treatment and outcomes of Chinese AMI patients; And to propose scientific precaution strategies aimed to prevent effectively from the incidence of AMI; And to optimize the management and outcomes of AMI patients through implementation of guideline recommendations in clinical practice, and analysis and development of effective treatment strategies; And to create cost-effective assessment system.</Field>
+            <Field Name="DetailedDescription">The aim of the study is to establish the national platform for surveillance, clinical research and translational medicine in China, designed to facilitate efforts to improve the quality of AMI patient care and thus decrease morbidity and mortality associated with AMI.</Field>
+          </Struct>
+          <Struct Name="ConditionsModule">
+            <List Name="ConditionList">
+              <Field Name="Condition">Acute Myocardial Infarction</Field>
+            </List>
+            <List Name="KeywordList">
+              <Field Name="Keyword">acute myocardial infarction</Field>
+              <Field Name="Keyword">China</Field>
+              <Field Name="Keyword">Registry</Field>
+            </List>
+          </Struct>
+          <Struct Name="DesignModule">
+            <Field Name="StudyType">Observational</Field>
+            <Field Name="PatientRegistry">Yes</Field>
+            <Field Name="TargetDuration">2 Years</Field>
+            <Struct Name="DesignInfo">
+              <List Name="DesignObservationalModelList">
+                <Field Name="DesignObservationalModel">Case-Only</Field>
+              </List>
+              <List Name="DesignTimePerspectiveList">
+                <Field Name="DesignTimePerspective">Prospective</Field>
+              </List>
+            </Struct>
+            <Struct Name="EnrollmentInfo">
+              <Field Name="EnrollmentCount">20000</Field>
+              <Field Name="EnrollmentType">Actual</Field>
+            </Struct>
+          </Struct>
+          <Struct Name="ArmsInterventionsModule">
+            <List Name="ArmGroupList">
+              <Struct Name="ArmGroup">
+                <Field Name="ArmGroupLabel">acute myocardial infarction</Field>
+                <Field Name="ArmGroupDescription">acute myocardial infarction including ST-elevation and non ST-elevation myocardial infarction</Field>
+              </Struct>
+            </List>
+          </Struct>
+          <Struct Name="OutcomesModule">
+            <List Name="PrimaryOutcomeList">
+              <Struct Name="PrimaryOutcome">
+                <Field Name="PrimaryOutcomeMeasure">In-hospital mortality of the patients with acute myocardial infarction in different-level hospitals across China</Field>
+                <Field Name="PrimaryOutcomeDescription">Different-level hospitals include Provincial-level, city-level, County-level hospitals from all over China.</Field>
+                <Field Name="PrimaryOutcomeTimeFrame">the duration of hospital stay, an expected average of 2 weeks</Field>
+              </Struct>
+            </List>
+            <List Name="SecondaryOutcomeList">
+              <Struct Name="SecondaryOutcome">
+                <Field Name="SecondaryOutcomeMeasure">The rate of the application of thrombolysis and primary percutaneous coronary intervention for Chinese patients with acute myocardial infarction in different-level hospitals</Field>
+                <Field Name="SecondaryOutcomeDescription">In different-level hospitals, How many patients with acute myocardial infarction receive thrombolysis and/or primary percutaneous coronary intervention within 24 hours from the onset,respectively?</Field>
+                <Field Name="SecondaryOutcomeTimeFrame">24 hours</Field>
+              </Struct>
+              <Struct Name="SecondaryOutcome">
+                <Field Name="SecondaryOutcomeMeasure">provoking factors of Chinese patients with AMI across different areas and different population in China</Field>
+                <Field Name="SecondaryOutcomeDescription">The different factors that can provoke the onset of acute myocardial infarction, for example, excess exercise, overload work, heavy smoking, heavy drinking of alcohol and so on.</Field>
+                <Field Name="SecondaryOutcomeTimeFrame">24 hours</Field>
+              </Struct>
+            </List>
+            <List Name="OtherOutcomeList">
+              <Struct Name="OtherOutcome">
+                <Field Name="OtherOutcomeMeasure">the in-hospital cost of Chinese patients with acute myocardial infarction</Field>
+                <Field Name="OtherOutcomeTimeFrame">the duration of hospital stay, an expected average of 2 weeks</Field>
+              </Struct>
+            </List>
+          </Struct>
+          <Struct Name="EligibilityModule">
+            <Field Name="EligibilityCriteria">Inclusion Criteria:
+
+Eligible patients must be admitted within 7 days of acute ischemic symptoms and diagnosed acute ST-elevation or non ST-elevation myocardial infarction. Diagnosis criteria must meet Universal Definition for AMI (2012). All participating hospitals are required to enroll consecutive patients with AMI.
+
+Exclusion Criteria:
+
+Myocardial infarction related to percutaneous coronary intervention and coronary artery bypass grafting.</Field>
+            <Field Name="HealthyVolunteers">No</Field>
+            <Field Name="Gender">All</Field>
+            <List Name="StdAgeList">
+              <Field Name="StdAge">Child</Field>
+              <Field Name="StdAge">Adult</Field>
+              <Field Name="StdAge">Older Adult</Field>
+            </List>
+            <Field Name="StudyPopulation">Eligible patients admitted within 7 days of acute ischemic symptoms and diagnosed acute ST-elevation or non ST-elevation myocardial infarction.</Field>
+            <Field Name="SamplingMethod">Probability Sample</Field>
+          </Struct>
+          <Struct Name="ContactsLocationsModule">
+            <List Name="OverallOfficialList">
+              <Struct Name="OverallOfficial">
+                <Field Name="OverallOfficialName">Yuejin Yang, MD.</Field>
+                <Field Name="OverallOfficialAffiliation">Fuwai Hospital, Chinse Academy of Medical Sciences</Field>
+                <Field Name="OverallOfficialRole">Study Chair</Field>
+              </Struct>
+            </List>
+            <List Name="LocationList">
+              <Struct Name="Location">
+                <Field Name="LocationFacility">Fuwai Hospital</Field>
+                <Field Name="LocationCity">Beijing</Field>
+                <Field Name="LocationState">Beijing</Field>
+                <Field Name="LocationZip">100037</Field>
+                <Field Name="LocationCountry">China</Field>
+              </Struct>
+            </List>
+          </Struct>
+          <Struct Name="ReferencesModule">
+            <List Name="ReferenceList">
+              <Struct Name="Reference">
+                <Field Name="ReferencePMID">20031882</Field>
+                <Field Name="ReferenceType">background</Field>
+                <Field Name="ReferenceCitation">Peterson ED, Roe MT, Rumsfeld JS, Shaw RE, Brindis RG, Fonarow GC, Cannon CP. A call to ACTION (acute coronary treatment and intervention outcomes network): a national effort to promote timely clinical feedback and support continuous quality improvement for acute myocardial infarction. Circ Cardiovasc Qual Outcomes. 2009 Sep;2(5):491-9. doi: 10.1161/CIRCOUTCOMES.108.847145.</Field>
+              </Struct>
+              <Struct Name="Reference">
+                <Field Name="ReferencePMID">34631809</Field>
+                <Field Name="ReferenceType">derived</Field>
+                <Field Name="ReferenceCitation">Shi W, Ni L, Yang J, Fan X, Yu M, Yang H, Yu M, Yang Y; China Acute Myocardial Infarction (CAMI) Registry study group. The Clinical Impact of Proton Pump Inhibitors When Co-Administered With Dual Antiplatelet Therapy in Patients Having Acute Myocardial Infarction With Low Risk of Gastrointestinal Bleeding: Insights From the China Acute Myocardial Infarction Registry. Front Cardiovasc Med. 2021 Sep 22;8:685072. doi: 10.3389/fcvm.2021.685072. eCollection 2021.</Field>
+              </Struct>
+              <Struct Name="Reference">
+                <Field Name="ReferencePMID">34493500</Field>
+                <Field Name="ReferenceType">derived</Field>
+                <Field Name="ReferenceCitation">Shi W, Fan X, Yang J, Ni L, Su S, Yu M, Yang H, Yu M, Yang Y; China Acute Myocardial Infarction(CAMI) Registry Study Group. In-hospital gastrointestinal bleeding in patients with acute myocardial infarction: incidence, outcomes and risk factors analysis from China Acute Myocardial Infarction Registry. BMJ Open. 2021 Sep 7;11(9):e044117. doi: 10.1136/bmjopen-2020-044117.</Field>
+              </Struct>
+              <Struct Name="Reference">
+                <Field Name="ReferencePMID">31567475</Field>
+                <Field Name="ReferenceType">derived</Field>
+                <Field Name="ReferenceCitation">Song CX, Fu R, Yang JG, Xu HY, Gao XJ, Wang CY, Zheng Y, Jia SB, Dou KF, Yang YJ; CAMI Registry study group. Angiographic characteristics and in-hospital mortality among patients with ST-segment elevation myocardial infarction presenting without typical chest pain: an analysis of China Acute Myocardial Infarction registry. Chin Med J (Engl). 2019 Oct 5;132(19):2286-2291. doi: 10.1097/CM9.0000000000000432.</Field>
+              </Struct>
+              <Struct Name="Reference">
+                <Field Name="ReferencePMID">31515430</Field>
+                <Field Name="ReferenceType">derived</Field>
+                <Field Name="ReferenceCitation">Song C, Fu R, Li S, Yang J, Wang Y, Xu H, Gao X, Liu J, Liu Q, Wang C, Dou K, Yang Y. Simple risk score based on the China Acute Myocardial Infarction registry for predicting in-hospital mortality among patients with non-ST-segment elevation myocardial infarction: results of a prospective observational cohort study. BMJ Open. 2019 Sep 12;9(9):e030772. doi: 10.1136/bmjopen-2019-030772.</Field>
+              </Struct>
+              <Struct Name="Reference">
+                <Field Name="ReferencePMID">31471442</Field>
+                <Field Name="ReferenceType">derived</Field>
+                <Field Name="ReferenceCitation">Song C, Fu R, Dou K, Yang J, Xu H, Gao X, Wang H, Liu S, Fan X, Yang Y. Association between smoking and in-hospital mortality in patients with acute myocardial infarction: results from a prospective, multicentre, observational study in China. BMJ Open. 2019 Aug 30;9(8):e030252. doi: 10.1136/bmjopen-2019-030252.</Field>
+              </Struct>
+              <Struct Name="Reference">
+                <Field Name="ReferencePMID">31255895</Field>
+                <Field Name="ReferenceType">derived</Field>
+                <Field Name="ReferenceCitation">Leng W, Yang J, Fan X, Sun Y, Xu H, Gao X, Wang Y, Li W, Xu Y, Han Y, Jia S, Zheng Y, Yang Y; behalf CAMI Registry investigators. Contemporary invasive management and in-hospital outcomes of patients with non-ST-segment elevation myocardial infarction in China: Findings from China Acute Myocardial Infarction (CAMI) Registry. Am Heart J. 2019 Sep;215:1-11. doi: 10.1016/j.ahj.2019.05.015. Epub 2019 Jun 6.</Field>
+              </Struct>
+              <Struct Name="Reference">
+                <Field Name="ReferencePMID">30807351</Field>
+                <Field Name="ReferenceType">derived</Field>
+                <Field Name="ReferenceCitation">Fu R, Song CX, Dou KF, Yang JG, Xu HY, Gao XJ, Liu QQ, Xu H, Yang YJ. Differences in symptoms and pre-hospital delay among acute myocardial infarction patients according to ST-segment elevation on electrocardiogram: an analysis of China Acute Myocardial Infarction (CAMI) registry. Chin Med J (Engl). 2019 Mar 5;132(5):519-524. doi: 10.1097/CM9.0000000000000122.</Field>
+              </Struct>
+              <Struct Name="Reference">
+                <Field Name="ReferencePMID">28052755</Field>
+                <Field Name="ReferenceType">derived</Field>
+                <Field Name="ReferenceCitation">Dai Y, Yang J, Gao Z, Xu H, Sun Y, Wu Y, Gao X, Li W, Wang Y, Gao R, Yang Y; CAMI Registry study group. Atrial fibrillation in patients hospitalized with acute myocardial infarction: analysis of the china acute myocardial infarction (CAMI) registry. BMC Cardiovasc Disord. 2017 Jan 4;17(1):2. doi: 10.1186/s12872-016-0442-9.</Field>
+              </Struct>
+              <Struct Name="Reference">
+                <Field Name="ReferencePMID">27530939</Field>
+                <Field Name="ReferenceType">derived</Field>
+                <Field Name="ReferenceCitation">Sun H, Yang YJ, Xu HY, Yang JG, Gao XJ, Wu Y, Li W, Wang Y, Liu J, Jin C, Song L; CAMI Registry Study Group. [Survey of medical care resources of acute myocardial infarction in different regions and levels of hospitals in China]. Zhonghua Xin Xue Guan Bing Za Zhi. 2016 Jul 24;44(7):565-9. doi: 10.3760/cma.j.issn.0253-3758.2016.07.003. Chinese.</Field>
+              </Struct>
+            </List>
+          </Struct>
+        </Struct>
+        <Struct Name="DerivedSection">
+          <Struct Name="MiscInfoModule">
+            <Field Name="VersionHolder">December 23, 2021</Field>
+          </Struct>
+          <Struct Name="ConditionBrowseModule">
+            <List Name="ConditionMeshList">
+              <Struct Name="ConditionMesh">
+                <Field Name="ConditionMeshId">D000009203</Field>
+                <Field Name="ConditionMeshTerm">Myocardial Infarction</Field>
+              </Struct>
+              <Struct Name="ConditionMesh">
+                <Field Name="ConditionMeshId">D000007238</Field>
+                <Field Name="ConditionMeshTerm">Infarction</Field>
+              </Struct>
+            </List>
+            <List Name="ConditionAncestorList">
+              <Struct Name="ConditionAncestor">
+                <Field Name="ConditionAncestorId">D000007511</Field>
+                <Field Name="ConditionAncestorTerm">Ischemia</Field>
+              </Struct>
+              <Struct Name="ConditionAncestor">
+                <Field Name="ConditionAncestorId">D000010335</Field>
+                <Field Name="ConditionAncestorTerm">Pathologic Processes</Field>
+              </Struct>
+              <Struct Name="ConditionAncestor">
+                <Field Name="ConditionAncestorId">D000009336</Field>
+                <Field Name="ConditionAncestorTerm">Necrosis</Field>
+              </Struct>
+              <Struct Name="ConditionAncestor">
+                <Field Name="ConditionAncestorId">D000017202</Field>
+                <Field Name="ConditionAncestorTerm">Myocardial Ischemia</Field>
+              </Struct>
+              <Struct Name="ConditionAncestor">
+                <Field Name="ConditionAncestorId">D000006331</Field>
+                <Field Name="ConditionAncestorTerm">Heart Diseases</Field>
+              </Struct>
+              <Struct Name="ConditionAncestor">
+                <Field Name="ConditionAncestorId">D000002318</Field>
+                <Field Name="ConditionAncestorTerm">Cardiovascular Diseases</Field>
+              </Struct>
+              <Struct Name="ConditionAncestor">
+                <Field Name="ConditionAncestorId">D000014652</Field>
+                <Field Name="ConditionAncestorTerm">Vascular Diseases</Field>
+              </Struct>
+            </List>
+            <List Name="ConditionBrowseLeafList">
+              <Struct Name="ConditionBrowseLeaf">
+                <Field Name="ConditionBrowseLeafId">M11307</Field>
+                <Field Name="ConditionBrowseLeafName">Myocardial Infarction</Field>
+                <Field Name="ConditionBrowseLeafAsFound">Myocardial Infarction</Field>
+                <Field Name="ConditionBrowseLeafRelevance">high</Field>
+              </Struct>
+              <Struct Name="ConditionBrowseLeaf">
+                <Field Name="ConditionBrowseLeafId">M9434</Field>
+                <Field Name="ConditionBrowseLeafName">Infarction</Field>
+                <Field Name="ConditionBrowseLeafAsFound">Infarction</Field>
+                <Field Name="ConditionBrowseLeafRelevance">high</Field>
+              </Struct>
+              <Struct Name="ConditionBrowseLeaf">
+                <Field Name="ConditionBrowseLeafId">M9695</Field>
+                <Field Name="ConditionBrowseLeafName">Ischemia</Field>
+                <Field Name="ConditionBrowseLeafRelevance">low</Field>
+              </Struct>
+              <Struct Name="ConditionBrowseLeaf">
+                <Field Name="ConditionBrowseLeafId">M11436</Field>
+                <Field Name="ConditionBrowseLeafName">Necrosis</Field>
+                <Field Name="ConditionBrowseLeafRelevance">low</Field>
+              </Struct>
+              <Struct Name="ConditionBrowseLeaf">
+                <Field Name="ConditionBrowseLeafId">M5698</Field>
+                <Field Name="ConditionBrowseLeafName">Coronary Artery Disease</Field>
+                <Field Name="ConditionBrowseLeafRelevance">low</Field>
+              </Struct>
+              <Struct Name="ConditionBrowseLeaf">
+                <Field Name="ConditionBrowseLeafId">M18658</Field>
+                <Field Name="ConditionBrowseLeafName">Myocardial Ischemia</Field>
+                <Field Name="ConditionBrowseLeafRelevance">low</Field>
+              </Struct>
+              <Struct Name="ConditionBrowseLeaf">
+                <Field Name="ConditionBrowseLeafId">M8571</Field>
+                <Field Name="ConditionBrowseLeafName">Heart Diseases</Field>
+                <Field Name="ConditionBrowseLeafRelevance">low</Field>
+              </Struct>
+              <Struct Name="ConditionBrowseLeaf">
+                <Field Name="ConditionBrowseLeafId">M16552</Field>
+                <Field Name="ConditionBrowseLeafName">Vascular Diseases</Field>
+                <Field Name="ConditionBrowseLeafRelevance">low</Field>
+              </Struct>
+            </List>
+            <List Name="ConditionBrowseBranchList">
+              <Struct Name="ConditionBrowseBranch">
+                <Field Name="ConditionBrowseBranchAbbrev">BC14</Field>
+                <Field Name="ConditionBrowseBranchName">Heart and Blood Diseases</Field>
+              </Struct>
+              <Struct Name="ConditionBrowseBranch">
+                <Field Name="ConditionBrowseBranchAbbrev">BC23</Field>
+                <Field Name="ConditionBrowseBranchName">Symptoms and General Pathology</Field>
+              </Struct>
+              <Struct Name="ConditionBrowseBranch">
+                <Field Name="ConditionBrowseBranchAbbrev">All</Field>
+                <Field Name="ConditionBrowseBranchName">All Conditions</Field>
+              </Struct>
+            </List>
+          </Struct>
+        </Struct>
+      </Struct>
+    </FullStudy>
+  </FullStudyList>
+</FullStudiesResponse>

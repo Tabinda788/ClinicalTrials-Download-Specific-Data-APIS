@@ -1,0 +1,511 @@
+{
+	"info": {
+		"_postman_id": "d8804d47-f98b-4019-885e-196bd36264a8",
+		"name": "CLINICALTRIALS SEARCH APIS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Full Studies",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/full_studies?expr=heart+attack&fields=InterventionName",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"full_studies"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "heart+attack"
+						},
+						{
+							"key": "fields",
+							"value": "InterventionName"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Study Fields",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/study_fields?expr=heart+attack&fields=Condition",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"study_fields"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "heart+attack"
+						},
+						{
+							"key": "fields",
+							"value": "Condition"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Study Values",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/field_values?expr=heart+attack&field=InterventionName",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"field_values"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "heart+attack"
+						},
+						{
+							"key": "field",
+							"value": "InterventionName"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StartDate Study Values",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/field_values?expr=heart+attack&field=StartDate",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"field_values"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "heart+attack"
+						},
+						{
+							"key": "field",
+							"value": "StartDate"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Query Parameters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/study_fields?expr=heart+attack&fields=NCTId%2CBriefTitle%2CCondition&min_rnk=2&max_rnk=21&fmt=xml",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"study_fields"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "heart+attack"
+						},
+						{
+							"key": "fields",
+							"value": "NCTId%2CBriefTitle%2CCondition"
+						},
+						{
+							"key": "min_rnk",
+							"value": "2"
+						},
+						{
+							"key": "max_rnk",
+							"value": "21"
+						},
+						{
+							"key": "fmt",
+							"value": "xml"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search_query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/full_studies?expr=heart+attack RANGE[21 years,MAX] (exhaustion OR sleep deprivation) MISSING",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"full_studies"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "heart+attack RANGE[21 years,MAX] (exhaustion OR sleep deprivation) MISSING"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search_term",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/full_studies?expr=heart+attack  and search\\\"Acute Myocardial Infarction\\\"",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"full_studies"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "heart+attack  and search\\\"Acute Myocardial Infarction\\\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OR_expression",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/full_studies?expr=heart+attack or stroke or dizziness",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"full_studies"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "heart+attack or stroke or dizziness"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AND_expression",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/full_studies?expr=heart+attack and stroke and dizziness",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"full_studies"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "heart+attack and stroke and dizziness"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AREA OPERATOR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/full_studies?expr=heart+attack and search\\\"Acute Myocardial Infarction\\\"",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"full_studies"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "heart+attack and search\\\"Acute Myocardial Infarction\\\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SEARCH OPERATOR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/full_studies?expr=heart+attack AND SEARCH[Location](AREA[LocationCity]Portland AND AREA[LocationState]Maine)",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"full_studies"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "heart+attack AND SEARCH[Location](AREA[LocationCity]Portland AND AREA[LocationState]Maine)"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MISSING OPERATOR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/full_studies?expr=heart+attack AREA[ResultsFirstPostDate]MISSING",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"full_studies"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "heart+attack AREA[ResultsFirstPostDate]MISSING"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RANGE OPERATOR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/full_studies?expr=diabetes AREA[ResultsFirstPostDate]RANGE[01/01/2015, MAX]",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"full_studies"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "diabetes AREA[ResultsFirstPostDate]RANGE[01/01/2015, MAX]"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ALL OPERATOR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/full_studies?expr=diabetes ALL",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"full_studies"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "diabetes ALL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SCORING OPERATOR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/full_studies?expr=TILT[StudyFirstPostDate]\"heart attack\"",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"full_studies"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "TILT[StudyFirstPostDate]\"heart attack\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Specific_Fields",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/field_values?expr=November 2012&field=StartDate",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"field_values"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "November 2012"
+						},
+						{
+							"key": "field",
+							"value": "StartDate"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NOT_expression",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://clinicaltrials.gov/api/query/study_fields?expr=heart+attackdizziness AND NOT exhaustion AND stroke&fields=NCTId,Condition,BriefTitle",
+					"protocol": "https",
+					"host": [
+						"clinicaltrials",
+						"gov"
+					],
+					"path": [
+						"api",
+						"query",
+						"study_fields"
+					],
+					"query": [
+						{
+							"key": "expr",
+							"value": "heart+attackdizziness AND NOT exhaustion AND stroke"
+						},
+						{
+							"key": "fields",
+							"value": "NCTId,Condition,BriefTitle"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
